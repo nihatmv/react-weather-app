@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(141, 141, 141);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.contanier {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 440px;
+  height: 630px;
+  border: 2px solid rgb(252, 250, 250);
+  border-radius: 10px;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  background-color: rgb(147, 147, 147);
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+.city {
+  font-family: Arialc, Helvetica, sans-serif;
+  font-size: 29px;
+  font-weight: 900;
+}
+.temperature {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+.weather-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 29px;
+  font-weight: 900;
+}
+.feels-like {
+  font-weight: bold;
+  font-size: 18px;
+}
+.humidity-level {
+  font-weight: bold;
+  font-size: 18px;
+}
+.wind-speed {
+  font-weight: bold;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.4);
+  font-size: 1.2rem;
+  width: 250px;
+  height: 25px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
 }
